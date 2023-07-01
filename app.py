@@ -35,7 +35,7 @@ movieList =pd.DataFrame(movieDict)
 st.title('Movie Recommender System')
 
 option = st.selectbox(
-    'How would you like to be contacted?',
+    'Select a movie of your choice',
     movieList['title'].values)
 
 if st.button('Recommend'):
